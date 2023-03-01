@@ -1,3 +1,8 @@
+/**
+ * Course: CSC 335
+ * Description: Plays an mp3 song demo
+ */
+
 package PlaySongDemo;
 
 /**
@@ -32,9 +37,9 @@ public class PlayAnMP3 extends Application {
     pane.setCenter( new Label(path));
     playASong(path);
     // Put the pane in a sized Scene and show the GUI
-    Scene scene = new Scene(pane, 255, 85); // 255 pixels wide, 85 pixels tall
+    Scene scene = new Scene(pane, 200, 80); // 200 pixels wide, 80 pixels tall
     stage.setScene(scene);
-    // Don't forget to show the running app:
+    // Show the app
     stage.show();
   }
 
